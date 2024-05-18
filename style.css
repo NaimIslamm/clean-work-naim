@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.hero-section{
+    height: 100vh;
+    background-image: url(Image/afro-woman-holding-bucket-with-cleaning-items.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* -----site header start----- */
+
+.site-header{
+    display: flex;
+    align-items: center;
+    background-color: #7CB8EB;
+    height: 48px;
+    font-weight: 600;
+    
+   
+}
+.site-header p{
+    margin: 0px 50px;
+    color: white;
+    font-size: .9rem;
+}
+.number{
+    margin-left: auto;
+} 
+ .fa-solid {
+    margin: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+.fa-brands{
+    margin: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+
+/*-----site header End----- */
+
+/*-----------Start NAVBAR---------- */
+
+.logo-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.logo img{
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    color: white;
+    padding: 10px;
+}
+.logo-details{
+    color: white;
+    font-size: 1.5rem;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.navbar{
+    display: flex;
+
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 65px;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 1.1rem;
+    margin: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.navbar a:hover {
+    color: #7CB8EB;
+}
+.nav-btn:hover{
+    background-color: #7CB8EB;
+    color: white;
+    transition: all .3s ease;
+}
+.nav-btn a:hover{
+    color: white;
+}
+
+/*-------- NAVBAR Ended --------- */
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4rem;
+    color: white;
+    font-weight: 600;
+    margin-top: 180px
+}
+.title-btn {
+    width: 195px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 1.1rem;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid white;   
+}
+
+.title-btn a{
+   font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+
+.title-btn:hover{
+    background-color: #7CB8EB;
+    border-color: transparent;
+    transition: all .3s ease;
+    
+}
+.title-btn.intro{
+    border: 2px solid transparent;
+    background-color: #4F83D1;
+}
+.title-btn.intro:hover{
+    background-color: #7CB8EB;
+    font-style: italic;
+    
+}
+
+.title-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/*------- Intro Section START------ */
+.intro-section{
+    margin-top: 50px;
+}
+
+.intro-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-deatils{
+    width: 50%;
+    margin-left: 60px;
+}
+.intro-deatils h2{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 10px;
+    
+}
+.intro-deatils p{
+    color: #717275;
+    padding: 10px;
+    
+}
+.intro-image{
+    width: 50%;
+}
+.intro-image img{
+    width: 490px;
+}
+.intro-sub-details{
+    background-color: #7CB8EB;
+    width: 280px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 180px;
+    margin-right: 20px;
+    
+}
+.intro-sub-details h6{
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.intro-sub-details p{
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 4px;
+}
+
+/*----- Intro Section END----- */
+
+/* --offer section start--- */
+.offer-section{
+    background-color: #F0F8FF;
+    width: 100%;
+    height: auto;
+}
+
+.office-cleaning-box img{
+    width: 159px;
+    height: 142px;
+    border-radius: px;
+    object-fit: cover;
+    vertical-align: middle;
+    
+}
+.cleaning-rate{
+    display: flex;
+    align-items: center;
+    background-color: #4F83D1;
+    width: 159px;
+    color: white;
+    padding: 5px;
+}
+.box2{
+    padding-left: 20px;
+}
+.box2 h2{
+margin-top: 5px;
+    font-size: 1.8rem;
+    color: #7CB8EB;
+}
+.box2 p{
+    margin-top: 5px;
+    width: 170px;
+    height: 100%;
+    color: #717275;
+}
+.box2 button{
+    width: 159px;
+    height: 48px;
+    border-radius: 6px;
+    font-size: .9rem;
+    margin-top: 7px;
+    background-color:#4F83D1;
+    border: 2px solid white;
+}
+.box2 button a{
+    text-decoration: none;
+    color: white;
+}
+.review-icons i{
+    font-size: .9rem;
+}
+
+.office-cleaning-box{
+    display: flex;
+    background-color: white;
+    width: 490px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.offer-title{
+    font-size: 2.6rem;
+    font-weight: 800;
+
+}
+.offer-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5%;
+   
+}
+/* --offer section END--- */
+
+
+/* Review section start */
+
+.review-section{
+    background-color: #6591D2;
+}
+
+.customer-review{
+    display: flex;
+    background-color: #7CB8EB;
+    align-items: center;
+    border-radius: 25px;
+    padding: 30px;
+    
+}
+
+.customer-img img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.review-details{
+    padding: 10px;
+}
+.review-details .name{
+   color: white;
+   font-size: 1.8rem;
+   margin-left: 10px;
+}
+
+.review{
+    background-color:#7CB8EB ;
+    width: fit-content;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 80px;
+
+
+}
+.review p{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 90%;
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    
+}
+.review-section h2{
+    color: white;
+    font-size: 2.7rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+/* Review section END */
+
+/* Partner Section Start */
+
+.partner-companies-title{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: fit-content;
+    margin-left: 33%;
+   
+}
+
+.partner-section{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3s;
+    
+}
+.partner-section img{
+    width: 150px;
+}
+
+.partner-section img:hover {
+    transition: all 0.3s ease;
+}
+/* Partner Section End */
+
+/* -----------------Footer Section Start------------------*/
+
+footer{
+    background-color: #7CB8EB;
+}
+.footer-logo-nav {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+.logo img{
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: white;
+    color: white;
+    padding: 10px;
+}
+.footer-column-one ul li{
+    list-style: none;
+}
+
+.footer-column-one a{
+ color: white;
+ text-decoration: none;
+}
+
+.footer-column-one h5{
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+.footer-coloum-two a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.footer-coloum-two h5{
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+
+.footer-social-icon{
+ display: flex;
+ padding: 5px;
+
+}
+
+.footer-social-icon a{
+    color: white;
+    background-color: #6591D2;
+    border-radius: 50px ;
+    margin-left: 5px;
+}
+.footer-column-three{
+    color: white;
+    line-height: 30px;
+}
+.footer-column-three h5{
+    color: white;
+    font-size: 1.4rem;
+    
+}
+
+.footer-coloum{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*------------ Footer Section END--------- */
+
+/*------ MEDIA QUERIES------ */
+
+@media all and (max-width: 500px){
+    body{
+        .time{
+            display: none;
+        }
+        .site-header p{
+            margin: 0 20px;
+            cursor: text;
+        }
+   
+/*------- nav-menu------ */
+
+
+.title h1{
+    font-size: 2.4rem;
+    margin-top: 81px;
+}
+.title-btn {
+    width: 162px;
+    height: 50px;
+    border-radius: 18px;
+
+}
+.intro-container{
+    flex-direction: column;
+}
+.intro-deatils {
+    width: 100%;
+    margin-left: 14px;
+}
+.intro-deatils h2{
+    font-size: 2rem;
+}
+
+}
+.intro-image {
+    width: 100%;
+}
+.intro-sub-details{
+    width: 100%;
+    height: 127px;
+    padding: 5px;
+    border-radius: 0px;
+    margin: 0;
+}
+
+.offer-title{
+     margin-left: 3%;
+}
+.offer-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.office-cleaning-box{
+    width: 450px;
+}
+
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.review{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.partner-companies-title{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    margin-left: 0;
+} 
+.partner-section {
+    flex-wrap: wrap;
+}
+.footer-coloum{
+    flex-direction: column;
+    
+}
+
+.footer-column-one{
+    margin-top: 8px;
+}
+.footer-coloum-two{
+    margin-top: 28px;
+}
+.footer-column-three{
+        margin-top: 38px;
+        margin-left: 10px;
+    }
+
+}
