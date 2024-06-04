@@ -472,7 +472,10 @@ body{
 /* Partner Section Start */
 
 .partner-companies-title{
+    color: white;
+    background-color:#7CB8EB;
     font-size: 2.3rem;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -581,7 +584,7 @@ footer{
             display: none;
         }
         .site-header p{
-            margin: 0 10px;
+            margin: 0 5px;
             cursor: text;
         }
         /* .site-header{
@@ -602,6 +605,7 @@ footer{
 
 }
 .intro-container{
+    position: relative;
     flex-direction: column;
 }
 .intro-deatils {
@@ -622,7 +626,8 @@ footer{
     /* width: 100%;
     height: 127px;
     padding: 5px; */
-    top: 163%;
+    position: absolute;
+    top: 78%;
     border-radius: 10px;
     /* display: none; */
 }
@@ -650,7 +655,8 @@ footer{
 .R-title{
     width: 100%;
     border-radius: 0;
-    margin: 0;
+    margin: 15px auto;
+    border-radius: 23px;
     /* display: flex;
     align-items: center;
     justify-content: center;
@@ -660,7 +666,7 @@ footer{
     border-radius: 36px; 
     margin-left: 33%;   */
 }
-}
+
 .review-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -671,13 +677,14 @@ footer{
 }
 
 .partner-companies-title{
+    color: white;
     background-color:#7CB8EB;
     font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin: 10px auto;
+    margin: 6px auto;
     width: 100%;
     border-radius: 10px;
     
@@ -701,7 +708,7 @@ footer{
         margin-left: 10px;
     }
 
-}
+
 
 
 .offer-section-2-inner {
