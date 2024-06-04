@@ -474,13 +474,13 @@ body{
 .partner-companies-title{
     color: white;
     background-color:#7CB8EB;
-    font-size: 2.3rem;
+    font-size: 2rem;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     padding: 20px;
     width: fit-content;
-    margin-left: 33%;
+    margin: 0 auto;
 }
 
 .partner-section{
@@ -770,3 +770,4 @@ footer{
     }
 }
 
+}
