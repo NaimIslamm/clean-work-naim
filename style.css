@@ -652,6 +652,11 @@ footer{
 .box2 h2 {
     font-size: 1.4rem;
 }
+----------------------------------------------
+.review-section h2{
+    color: white;
+    font-size: 2.4rem;
+}
 .R-title{
     width: 100%;
     border-radius: 0;
@@ -671,10 +676,10 @@ footer{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
-.review{
+/* .review{
     margin-top: 0;
     margin-bottom: 30px;
-}
+} */
 
 .partner-companies-title{
     color: white;
@@ -683,7 +688,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 7px;
     margin: 6px auto;
     width: 100%;
     border-radius: 10px;
@@ -692,6 +697,9 @@ footer{
 .partner-section {
     flex-wrap: wrap;
 }
+
+/*-------- Footer Start--------- */
+
 .footer-coloum{
     flex-direction: column;
     
