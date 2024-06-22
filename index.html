@@ -6,6 +6,7 @@
     <title>Clean Work</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1ce6f653f8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -15,24 +16,36 @@
                <p class="time"><i class="fa-solid fa-clock"></i> Mon - Fri 8:00 AM - 5:30 PM</p>
                 <p class="number"><i class="fa-brands fa-whatsapp"></i>110 220 9800</p></div>
             
-                <div class="nav-bar">
-                    <!-- <ul class="sidebar">
-                        <li><a href="#"><img src="Image/bubbles.png" alt=""></a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li class="nav-btn"><a href="#">Get Started</a></li>
-                    </ul> -->
-                    <ul>
-                        <li><a href="#"><img src="Image/bubbles.png" alt=""></a><h3>Clean Work</h3></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li class="nav-btn"><a href="#">Get Started</a></li>
-                    </ul>
-                </div>
+                <nav class="nav-bar">
+                    
+                       <div class="logo-menu-inner">
+                        <div class="logo-title">
+                            <div class="logo">
+                                <a href="#"><img src="Image/bubbles.png" alt=""></a>
+                            </div>
+                            <h3>Clean Work</h3>   
+                        </div>
+                       <div class="menu sidebar">
+                        <div class="menu-btn">
+                           <a href="#"><i class="fa-solid fa-xmark" onclick="hideSidebar()"></i></a>
+                          </div>
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Contact</a>
+                        <div class="nav-btn"><a href="#">Get Started</a></div>
+                       </div>
+                      
+                       <div class="menu-btn">
+                       <a href="#"><i class="fa-solid fa-bars" onclick="showSidebar()"></i></a>
+                        
+                      </div>
+                       </div>
+                       
+                </nav>
+                    
+                    
+                
                 
             <!-- <div class="nav-bar">
                <div class="logo-container"> 
@@ -319,6 +332,7 @@
             <img src="partners/unilabs.svg" alt="">
             <img src="partners/woocommerce.svg" alt="">
         </div>
+        
     </header>
     <footer>
         <div class="footer-logo-nav">
@@ -364,5 +378,15 @@
         </div>
         </div>
     </footer>
+    <script>
+        function showSidebar(){
+          const sidebar = document.querySelector(".sidebar")
+          sidebar.style.display = "flex"
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector(".sidebar")
+          sidebar.style.display = "none"
+        }
+        </script>
 </body>
 </html>
