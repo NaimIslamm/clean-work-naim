@@ -57,7 +57,7 @@ body{
 
 /*-----------Start NAVBAR---------- */
 .nav-bar{
-    width: 980px;
+    max-width: 980px;
     margin: 18px auto;
 }
 .logo-menu-inner{
@@ -648,7 +648,7 @@ footer{
     display: flex;
     justify-content: flex-start;
    padding: 10px 15px;
-   gap: 20%;
+   gap: 25%;
 }
 .logo-title{
     display: flex;
