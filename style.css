@@ -646,9 +646,9 @@ footer{
 } */
 .logo-menu-inner {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
    padding: 10px 15px;
-   gap: 25%;
+   /* gap: 25%; */
 }
 .logo-title{
     display: flex;
@@ -670,6 +670,10 @@ footer{
         top: 0;
         right: 0;
         z-index: 999;
+        transition: all .6s ease;
+}
+.menu i{
+    font-size: 2em;
 }
 .menu-btn{        
     display: block;
@@ -677,7 +681,7 @@ footer{
     /* margin: 20px 25px; */
     
 }
-.menu-btn a{
+.menu-btn i{
    
     font-size: 2em;
 }
